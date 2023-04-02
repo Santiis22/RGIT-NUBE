@@ -1,0 +1,28 @@
+
+CONFIGURACIÓN INICIAL
+
+	$ git --version [chequear la version]
+	$ git config --global user.name "Santi Rmz"
+	$ git config --global user.email "jhoshua09@gmail.com"
+	$ git config --list
+
+INICIO DE UN NUEVO REPOSITORIO: GIT INIT
+	$ git init [inicializar un repositorio "unica vez"]
+
+¿COMO VINCULAMOS NUESTRO REPOSITORIO CON GITHUB?
+	$ git remote add <name> <url>
+	$ git remote add origin <url> [vincular el Rrepositorio Local a un Repositorio Remoto en GitHub]
+	$ git remote add origin https://github.com/Santiis22/RGIT-NUBE.git [EJEMPLO]
+
+	$ git remote -v [indica el vinculo de RL(PC) al RR(GitHub)]
+
+GUARDAR CAMBIOS EN EL REPOSITORIO: GIT STATUS GIT ADD Y GIT COMMIT
+	$ git status [da toda la información necesaria sobre la rama actual]
+	$ 
+	
+		
+	
+END [tocar letra q de "quit"]
+
+repositorio de tu pc (Repositorio Local == RL) 
+se debe vincular (unificar) a un repositorio creado en GitHub (Repositorio Remoto == RR)
