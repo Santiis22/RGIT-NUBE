@@ -1,6 +1,5 @@
 
 CONFIGURACIÓN INICIAL
-
 	$ git --version [chequear la version]
 	$ git config --global user.name "Santi Rmz"
 	$ git config --global user.email "jhoshua09@gmail.com"
@@ -18,9 +17,24 @@ INICIO DE UN NUEVO REPOSITORIO: GIT INIT
 
 GUARDAR CAMBIOS EN EL REPOSITORIO: GIT STATUS GIT ADD Y GIT COMMIT
 	$ git status [da toda la información necesaria sobre la rama actual]
-	$ 
-	
-		
+	$ git add <archivo> [Añadir un único archivo]
+	$ git add . [Añadir todo de una vez]
+		    [incluir los cambios del o de los archivos en tu siguiente commit]
+	$ git commit -m "mensaje de confirmación" [guardar cambios o subir un archivo/proyecto]
+						  [punto de control o puntos de guardado]
+						  [confirma el o los cambios dentro de Repos.Local]
+
+ENVIAR CAMBIOS AL REPOSITORIO: GIT PUSH
+	$ git push <nombre-remoto> <nombre-de-tu-rama>	
+	$ git push origin <nombre-de-tu-rama>	[alias "origin" para la URL del Repos.Remoto]
+						[rama "main" a la que tendremos que pushea]
+	$ git push origin main [enviar los commits al Repositorio Remoto]
+			       [enviar cambios o archivos al servidor remoto GIT PUSH]
+
+CLONAR EL REPOSITORIO GIT
+	$ git clone https://github.com/RivelliDev/EggProjects
+	$ git clone https://github.com/EggEducacion/MiPrimerRepositorio.git
+
 	
 END [tocar letra q de "quit"]
 
